@@ -1,0 +1,326 @@
+This is e-pTeX, Version 3.1415926-p3.4-110825-2.6 (sjis.euc) (TeX Live 2013) (format=platex 2013.8.27)  30 AUG 2013 21:34
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**wiss_template
+(./wiss_template.tex
+pLaTeX2e <2006/11/10> (based on LaTeX2e <2011/06/27> patch level 0)
+Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+(./wiss.cls
+Document Class: wiss 2010/07/06 pLaTeX class for WISS
+(./wissbase11.cls
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 51.
+
+)
+\c@part=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\@abstractbox=\box41
+) (/usr/local/texlive/2013/texmf-dist/tex/platex/base/ascmac.sty
+(/usr/local/texlive/2013/texmf-dist/tex/platex/base/tascmac.sty
+\@savetbaselineshift=\dimen118
+\@saveybaselineshift=\dimen119
+\scb@x=\box42
+\scscb@x=\box43
+\@bw=\dimen120
+\@nbox=\box44
+\@nbody=\box45
+\@scw=\dimen121
+\@itemh=\dimen122
+\@iboxpos=\toks15
+\@iboxstr=\box46
+\@bwsp=\box47
+\@@bwsp=\box48
+\@bcal=\count89
+\shaderule=\dimen123
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: dvips.def on input line 91.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen124
+\Gin@req@width=\dimen125
+)
+(/usr/local/texlive/2013/texmf-dist/tex/platex/base/nidanfloat.sty
+Package: nidanfloat 2005/12/09 v2.7 Put double-floats at top/bottom within twoc
+olumn mode
+\c@dblbotnumber=\count90
+\@dblbotroom=\dimen126
+\@dblbotnum=\count91
+\@floatht=\dimen127
+\@fixht=\dimen128
+\@combinebox=\box49
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+\c@tracingmulticols=\count92
+\mult@box=\box50
+\multicol@leftmargin=\dimen129
+\c@unbalance=\count93
+\c@collectmore=\count94
+\doublecol@number=\count95
+\multicoltolerance=\count96
+\multicolpretolerance=\count97
+\full@width=\dimen130
+\page@free=\dimen131
+\premulticols=\dimen132
+\postmulticols=\dimen133
+\multicolsep=\skip41
+\multicolbaselineskip=\skip42
+\partial@page=\box51
+\last@line=\box52
+\mult@rightbox=\box53
+\mult@grightbox=\box54
+\mult@gfirstbox=\box55
+\mult@firstbox=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\c@columnbadness=\count98
+\c@finalcolumnbadness=\count99
+\last@try=\dimen134
+\multicolovershoot=\dimen135
+\multicolundershoot=\dimen136
+\mult@nat@firstbox=\box74
+\colbreak@box=\box75
+\multicol@sort@counter=\count100
+)
+(./jlisting/listings.sty
+\lst@mode=\count101
+\lst@gtempboxa=\box76
+\lst@token=\toks17
+\lst@length=\count102
+\lst@currlwidth=\dimen137
+\lst@column=\count103
+\lst@pos=\count104
+\lst@lostspace=\dimen138
+\lst@width=\dimen139
+\lst@newlines=\count105
+\lst@lineno=\count106
+\abovecaptionskip=\skip43
+\belowcaptionskip=\skip44
+\lst@maxwidth=\dimen140
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count107
+\lst@skipnumbers=\count108
+\lst@framebox=\box77
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+
+LaTeX Warning: You have requested package `jlisting/listings',
+               but the package provides `listings'.
+
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+(./jlisting/jlisting.sty
+
+LaTeX Warning: You have requested package `jlisting/jlisting',
+               but the package provides `jlisting'.
+
+Package: jlisting 2006/02/20 0.2 (Thor)
+\lst@nextchar=\count109
+\lst@inputfile=\read1
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2004/09/05 1.3 listings language file
+)
+(./balance.sty
+Package: balance 1999/02/23 4.3 (PWD)
+\oldvsize=\dimen141
+) (./wiss_template.aux
+
+LaTeX Warning: Label `src:branch' multiply defined.
+
+)
+\openout1 = `wiss_template.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+\c@lstlisting=\count110
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 44.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 44.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 60.
+
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 60.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 60.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 60.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 60.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 60.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 60.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 60.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 60.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 60.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10.5> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 98.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10.5> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 98.
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 98.
+
+[1
+
+
+
+]
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 126.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <9> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 126.
+
+Overfull \hbox (19.81418pt too wide) in paragraph at lines 153--154
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 191.
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 191.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 191.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.5> on input line 191.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7.34996> on input line 191.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5.25> on input line 191.
+[2]
+Overfull \hbox (14.0935pt too wide) in paragraph at lines 230--231
+[]\OT1/cmr/m/n/10.95 Linda-Base \JY1/mc/m/n/10.5 を介して 、 適切な \OT1/cmr/m/
+n/10.95 BabaScript Client
+ []
+
+
+Overfull \hbox (14.19398pt too wide) in paragraph at lines 232--233
+[]\JY1/mc/m/n/10.5 ワ ーカ ーが処理を実行し 、 その結果を \OT1/cmr/m/n/10.95 Ba
+baScript
+ []
+
+[3]
+Overfull \hbox (17.1615pt too wide) in paragraph at lines 269--274
+\JY1/mc/m/n/10.5 頼するものとして 、 \OT1/cmr/m/n/10.95 Ama-zon Me-chan-i-cal T
+urk(MTurk)
+ []
+
+
+Overfull \hbox (3.09935pt too wide) in paragraph at lines 269--274
+\JY1/mc/m/n/10.5 等のクラウドソ ーシングサ ービスが存在する 。 \OT1/cmr/m/n/10.
+95 TurKit
+ []
+
+(./wiss_template.bbl
+
+LaTeX Font Warning: Font shape `JT1/gt/m/it' undefined
+(Font)              using `JT1/gt/m/n' instead on input line 11.
+
+
+LaTeX Font Warning: Font shape `JY1/gt/m/it' undefined
+(Font)              using `JY1/gt/m/n' instead on input line 11.
+
+)
+\FUTURE=\box78
+File: vision.eps Graphic file (type eps)
+ <vision.eps>
+\FUTUREHT=\skip45
+
+Overfull \hbox (24.19879pt too wide) in paragraph at lines 363--368
+[]|  []
+ []
+
+
+Overfull \vbox (0.98457pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (19.4428pt too high) has occurred while \output is active []
+
+
+[4] (./wiss_template.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right o
+n input line 381.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2155 strings out of 494008
+ 29819 string characters out of 6154472
+ 131740 words of memory out of 5000000
+ 5609 multiletter control sequences out of 15000+600000
+ 18214 words of font info for 70 fonts, out of 8000000 for 9000
+ 745 hyphenation exceptions out of 8191
+ 26i,10n,40p,450b,1004s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on wiss_template.dvi (4 pages, 31840 bytes).

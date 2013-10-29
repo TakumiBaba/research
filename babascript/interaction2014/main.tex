@@ -1,0 +1,214 @@
+%%
+%% 研究報告用スイッチ
+%% [techreq]
+%%
+%% 欧文表記無しのスイッチ(etitle,jkeyword,eabstract,ekeywordは任意)
+%% [noauthor]
+%%
+
+%\documentclass[submit,techreq]{ipsj}
+\documentclass[submit,techreq]{ipsj}
+
+\usepackage[dvips]{graphicx}
+\usepackage{latexsym}
+
+\def\Underline{\setbox0\hbox\bgroup\let\\\endUnderline}
+\def\endUnderline{\vphantom{y}\egroup\smash{\underline{\box0}}\\}
+\def\|{\verb|}
+
+
+\setcounter{巻数}{53}%vol53=2012
+\setcounter{号数}{2}
+\setcounter{page}{1}
+
+% インタラクション特有の設定。印刷工程で柱・ノンブルの埋め込みを行う。
+\makeatletter
+\pagestyle{empty}
+\def\@oddhead{}%
+\def\@evenhead{}%
+\def\ps@IPSJTITLEheadings{}
+\makeatother
+
+% このソースファイルは，情報処理学会が研究会・シンポジウム用に新しく定め，提供
+% している共通テンプレートに対し，インタラクションにおける製版工程の差異上必要と
+% なるレイアウト要素について最低限の改変を施したものです．
+% インタラクションにおける原稿作成上の注意や，提出先などの指示は，
+% http://www.interaction-ipsj.org/2013/submit.html の案内に従ってください．
+% 本文は，研究会・シンポジウムの原稿を作成する上での一般的な注意になっています．
+
+
+\begin{document}
+
+
+\title{情報処理学会論文誌ジャーナル論文の準備方法\\
+（2012年2月4日版）}
+
+\etitle{How to Prepare Your Paper for IPSJ Journal \\
+(version 2012/2/4)}
+
+\affiliate{IPSJ}{情報処理学会\\
+IPSJ, Chiyoda, Tokyo 101--0062, Japan}
+
+
+\paffiliate{JU}{情報処理大学\\
+Johoshori Uniersity}
+
+\author{情報 太郎}{Joho Taro}{IPSJ}[joho.taro@ipsj.or.jp]
+\author{処理 花子}{Shori Hanako}{IPSJ}
+\author{学会 次郎}{Gakkai Jiro}{IPSJ,JU}[gakkai.jiro@ipsj.or.jp]
+
+\begin{abstract}
+本稿は，情報処理学会論文誌ジャーナルに投稿する原稿を執筆する際，および論
+文採択後に最終原稿を準備する際の注意点等をまとめたものである．大きく分け
+ると，論文投稿の流れと，\LaTeX と専用のスタイルファイルを用いた場合の論
+文フォーマットに関する指針，および論文の内容に関してするべきこと，するべ
+きでないことをまとめたべからずチェックリストからなる．本稿自体も \LaTeX 
+と専用のスタイルファイルを用いて執筆されているため，論文執筆の際に参考に
+なれば幸いである．
+\end{abstract}
+
+
+%\begin{jkeyword}
+%情報処理学会論文誌ジャーナル，\LaTeX，スタイルファイル，べからず集
+%\end{jkeyword}
+%
+\begin{eabstract}
+This document is a guide to prepare a draft for submitting to IPSJ
+Journal, and the final camera-ready manuscript of a paper to appear in
+IPSJ Journal, using {\LaTeX} and special style files.  Since this
+document itself is produced with the style files, it will help you to
+refer its source file which is distributed with the style files.
+\end{eabstract}
+%
+%\begin{ekeyword}
+%IPSJ Journal, \LaTeX, style files, ``Dos and Dont's'' list
+%\end{ekeyword}
+
+\maketitle
+
+\section{はじめに}
+実世界環境とITシステムの融合が進んでいる。
+実世界の状態にもとづいてWebが変化したり、Webの情報にもとづいて実世界が変化するようなことが起きている。
+プログラムから実世界環境へアクセスすることは増えていっており、Arduinoなどによってそれは容易になってきている。
+ちょっとした労力で実世界をセンシングしたり、アクチュエータで実世界に干渉できるようになっている。
+この流れの中で、人力をプログラムから用いるという試みが行われている。
+人は汎用的なセンサ・アクチュエータであり、コンピュータでは難しいようなことでも瞬時にこなしてしまう事例がある。
+こういった人力をプログラムに組み込むことで、より強力なコンピューティングが可能となる。
+しかし、現状のこれらの取り組みのほとんどはクラウドソーシングなどの世界中に散らばる不特定多数を対象としているものだ。
+特定可能な身近な人や実世界環境を対象としているものはなく、コンシューマや一般開発者にとって人力を使うことは難しい。
+Arduinoなどのツールがプログラムから実世界を扱うことを一般開発者でも出来るようにしたように、人力を利用するための環境も一般開発者でも使えるようなレベルに落としこむ必要がある。
+そこで、本論文では、身近な人間を組み込んでプログラミングするための手法を提案する。
+また、その応用例を示す。
+\section{分散人力処理環境}
+人をプログラムに組み込むための環境について論じる。
+人をプログラムに組み込むためには、以下の要素が必要だ
+\begin{itemize}
+\item{人への命令構文}
+\item{処理した結果をプログラムに返す}
+\end{itemize}
+つまり、人への命令構文を通常の関数実行と同じ形式にし、同様に値が返ってくるようにする必要がある。
+そこで、以下の2つを開発した。
+\begin{itemize}
+\item{BabaScript}
+\item{BabaScript Client}
+\end{itemize}
+また、適切なクライアントへ命令を分配するために、Linda-Baseという分散処理プラットフォームを導入した。
+
+\subsection{BabaScript}
+BabaScriptは、プログラム言語に人への命令構文を追加可能なライブラリだ。Ruby上で動作するよう実装した。
+BabaScript及びそれを継承したクラスで宣言されていないメソッド全てが人への命令メソッドとして扱われる。
+命令メソッドとして扱われた場合、メソッド名と引数が人に通知される。
+引数内で指定した内容に応じて、BabaScript Clientの挙動を変化させることができる。
+例えば、第一引数の :format に "int" を指定すれば、BabaScript Clientではint型の入力フォームが表示される。
+
+\begin{figure}[htbp]
+	\begin{center}
+	\includegraphics[width=80mm,bb=0 0 902 221]{babascript_sample.png}
+  \end{center}
+  \caption{キャプション} 
+  \label{fig:myFigure}
+\end{figure}
+
+\subsection{BabaScript Client}
+BabaScript Clientは、プログラムと人とのインタフェースとなるクライアントアプリケーションだ。
+スマートフォンアプリケーションとして実装し、Android上で動作する。
+以下の役割を持つ
+\begin{itemize}
+\item{プログラムから人への命令を受け取る}
+\item{人に命令内容を伝え、結果を入力させる}
+\item{入力された値をプログラムに返す}
+\end{itemize}
+ユーザは、スマートフォン上に表示されるプログラムからの命令に返答する。
+返り値はプログラムから指定されたものを使う。
+例えば、boolean を指定された場合、処理結果の入力フォームは true or false の二択となる。
+
+\subsection{分散処理の仕組み}
+人や人たちへの命令を適切に配信するためのプラットフォームとして、Linda-Baseという分散処理環境を導入した。
+Linda-BaseはLindaという分散処理のための仕組みをWeb経由で利用可能にしたwebサービスだ。
+命令はTupleというものでやりとりされ、Tupleの最初の項目に書かれている内容に応じて命令を振り分ける。
+例えば、"takumibaba"という内容であれば、"takumibaba"を監視しているクライアント全てに命令が振り分けられる。
+
+
+\section{応用例}
+本提案の人力処理環境を応用すると、以下のようなことが可能となる。
+\subsection{人の役割/仕事のプログラム化}
+人は様々な役割や仕事を担っている。
+その中には、決まりきったタスクをこなすだけであったり、マニュアルとして言語化されているものがある。
+人の行動が一定で言語化可能であるならば、本提案の環境を利用することで、それらの役割/仕事をプログラムとして記述可能になる。
+プログラムとして実行することで、人の意思を必要としないような条件判断などをプログラムに任せ、人は人にしかできないような仕事に専念することができる。
+また、ただプログラムからの命令を実行していくだけなので、素人でも業務遂行/役割達成が可能となる。
+以下のようなメリットが考えられる。
+\begin{itemize}
+\item{引き継ぎ作業が必要ない}
+\item{効率的に人が運用可能}
+\item{作業状態の保存が可能}
+\item{一方的に指示してもらえる}
+\end{itemize}
+ただ命令に従うだけなので、人員交代などによる引き継ぎがあっても問題ない。
+人の代替が可能。
+人の作業状態をプログラムで管理することができるので、AさんがやっていたことをBさんにやらせる、といったことが簡単にできるようになる
+自分のすべきことは基本的にプログラムが教えてくれるので、それに従うだけ。
+
+\subsection{エラー処理の人への委譲}
+\subsection{移動型のセンサー・アクチュエータ}
+\section{関連研究}
+HumanComputation
+クラウドソーシング分野
+Turkit
+AutoMan
+Jabberwocky
+CrowdForge
+Human as Sensorなど
+
+CrowdDB
+プログラムに人を組み込むという類似例としては、CrowdDBが挙げられる。
+CrowdDBはコンピュータにはわからないようなクエリを人間が処理させるものだ。
+CrowdDBはデータベースとの連携に主眼を置いているが、本提案は人をプログラムに組み込むことで実世界に干渉したりすることを主眼においている。
+\section{おわりに}
+本論文では、人をプログラムに組み込む仕組みについて提案した。
+また、その環境上で動くアプリケーションの利用例を示した。
+
+%% 以下は無視されます
+
+\begin{biography}
+\profile{m}{情報 太郎}{1970年生．1992年情報処理大学理学部情報科学科卒．
+1994年同大大学院修士課程了．同年情報処理学会入社．オンライン出版の研究
+に従事．電子情報通信学会，IEEE，ACM 各会員}
+%
+\profile{n}{処理 花子}{1960年生．1982年情報処理大学理学部情報科学科卒．
+1984年同大大学院修士課程了．1987年同博士課程了．理学博士．1987年情報処
+理大学助手．1992年架空大学助教授．1997年同大教授．オンライン出版の研究
+に従事．2010年情報処理記念賞受賞．電子情報通信学会，IEEE，IEEE-CS，ACM
+各会員}
+%
+\profile{s}{学会 次郎}{1950年生．1974年架空大学大学院修士課程了．
+1987年同博士課程了．工学博士．1977年架空大学助手．1992年情報処理大学助
+教授．1987年同大教授．2000年から情報処理学会顧問．オンライン出版の研究
+に従事．2010年情報処理記念賞受賞．情報処理学会理事．電子情報通信学会，
+IEEE，IEEE-CS，ACM 各会員}
+%
+\end{biography}
+
+
+
+\end{document}

@@ -1,0 +1,223 @@
+This is e-pTeX, Version 3.1415926-p3.4-110825-2.6 (sjis.euc) (TeX Live 2013) (format=platex 2013.10.23)  24 OCT 2013 02:59
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main
+(./main.tex
+pLaTeX2e <2006/11/10> (based on LaTeX2e <2011/06/27> patch level 0)
+Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+(./ipsj.cls
+Document Class: ipsj 2012/06/01 v1.03 IPSJ class
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: dvips.def on input line 130.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\c@@paper=\count81
+\h=\dimen118
+\JQ=\dimen119
+\Q=\dimen120
+\@Q=\dimen121
+\ChtE=\skip41
+\CdpE=\skip42
+\CwdE=\skip43
+\CvsE=\skip44
+\normalbaselineskip=\skip45
+\c@volume=\count82
+\c@number=\count83
+\c@month=\count84
+\c@year=\count85
+\author@count=\count86
+\label@count=\count87
+\email@count=\count88
+\affiliate@count=\count89
+\offsetemail=\count90
+\paffiliate@count=\count91
+\shubetutitlesep=\skip46
+\JEhonbunsep=\skip47
+\Etitleauthorsep=\skip48
+\Eauthorreceivesep=\skip49
+\Ereceiveabstsep=\skip50
+\Eabstkeywordsep=\skip51
+\Jtitlejauthorsep=\skip52
+\Jauthorjreceivesep=\skip53
+\Jreceivejabstsep=\skip54
+\Jabstsepjkeyword=\skip55
+\Jkeywordetitle=\skip56
+\Jetitleeauthor=\skip57
+\Jeauthorereceivesep=\skip58
+\Jereceiveeabstsep=\skip59
+\Jeabstekeywordsep=\skip60
+\@abstractbox=\box41
+\@eabstractbox=\box42
+\@jkeywordbox=\box43
+\@ekeywordbox=\box44
+\@keywordbox=\box45
+\c@part=\count92
+\c@section=\count93
+\c@subsection=\count94
+\c@subsubsection=\count95
+\c@paragraph=\count96
+\c@subparagraph=\count97
+\@tempboxb=\box46
+\SECTwd=\box47
+\section@height=\skip61
+\@abovecapskip=\dimen122
+\@belowcapskip=\dimen123
+\c@figure=\count98
+\c@table=\count99
+\abovecaptionskip=\skip62
+\belowcaptionskip=\skip63
+\@tempboxb=\box48
+\capwidth=\dimen124
+\ecapwidth=\dimen125
+\bibindent=\dimen126
+\c@profile=\count100
+\mathindent=\dimen127
+\@dummyfigbox=\box49
+\twocolcapwidth=\dimen128
+\twocolecapwidth=\dimen129
+\@compare@result=\count101
+
+(./ipsjtech.sty
+Document Class: ipsj 2012/06/01 v3.00 IPSJTECH.STY
+)) (/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: dvips.def on input line 91.
+)
+\Gin@req@height=\dimen130
+\Gin@req@width=\dimen131
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+) (./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <8.8711> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 60.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <8.8711> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 60.
+LaTeX Font Info:    Calculating math sizes for size <8.8711> on input line 63.
+LaTeX Font Info:    Font shape `JT1/mc/m/it' in size <8.5373> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 75.
+LaTeX Font Info:    Font shape `JY1/mc/m/it' in size <8.5373> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 75.
+
+
+LaTeX Font Warning: Font shape `JT1/mc/bx/it' undefined
+(Font)              using `JT1/mc/bx/n' instead on input line 75.
+
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <8.5373> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 75.
+
+LaTeX Font Warning: Font shape `JY1/mc/bx/it' undefined
+(Font)              using `JY1/mc/bx/n' instead on input line 75.
+
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <8.5373> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 75.
+LaTeX Font Info:    Calculating math sizes for size <8.5373> on input line 78.
+LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <19.2207> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 87.
+LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <19.2207> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 87.
+LaTeX Font Info:    Calculating math sizes for size <9.61035> on input line 87.
+
+LaTeX Font Info:    Calculating math sizes for size <11.82813> on input line 87
+.
+LaTeX Font Info:    Calculating math sizes for size <8.27965> on input line 87.
+
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.22882> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 87.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.22882> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 87.
+LaTeX Font Info:    Font shape `JT1/mc/m/sc' in size <10.34961> not available
+(Font)              Font shape `JT1/mc/m/n' tried instead on input line 87.
+LaTeX Font Info:    Font shape `JY1/mc/m/sc' in size <10.34961> not available
+(Font)              Font shape `JY1/mc/m/n' tried instead on input line 87.
+LaTeX Font Info:    Calculating math sizes for size <10.34961> on input line 87
+.
+LaTeX Font Info:    Font shape `JT1/mc/m/sc' in size <7.24469> not available
+(Font)              Font shape `JT1/mc/m/n' tried instead on input line 87.
+LaTeX Font Info:    Font shape `JY1/mc/m/sc' in size <7.24469> not available
+(Font)              Font shape `JY1/mc/m/n' tried instead on input line 87.
+LaTeX Font Info:    Calculating math sizes for size <7.24469> on input line 87.
+
+LaTeX Font Info:    Calculating math sizes for size <8.13184> on input line 87.
+
+LaTeX Font Info:    Calculating math sizes for size <5.69225> on input line 87.
+
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <11.82813> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 89.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <11.82813> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 89.
+[1
+
+
+]
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9.61035> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 117.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <9.61035> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 117.
+File: babascript_sample.png Graphic file (type eps)
+ <babascript_sample.png>
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <8.13184> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 128.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <8.13184> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 128.
+ [2] (./main.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1556 strings out of 494008
+ 21423 string characters out of 6154471
+ 81232 words of memory out of 5000000
+ 5040 multiletter control sequences out of 15000+600000
+ 47360 words of font info for 207 fonts, out of 8000000 for 9000
+ 745 hyphenation exceptions out of 8191
+ 36i,7n,21p,232b,373s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on main.dvi (2 pages, 14972 bytes).
